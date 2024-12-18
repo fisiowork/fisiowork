@@ -182,8 +182,47 @@ programas de prevenção, promoção de saúde e qualidade de vida.">
         </div>
     </div>
 
+<!-- INICIO FOOTER -->
+<footer>
+
+  <div class="rodape">
+      Ao visitar ou usar os nossos serviços, está a concordar com o uso de cookies conforme descrito nos nossos
+      <a href="./termos.html">Termos de Serviço, Política de Cookies e Outros</a>
+      <br>
+      <a href="mailto:plinioramos1975@gmail.com" target="#blank"> 
+          plinioramos1975@gmail.com
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      
+      </a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="">&copy; 2024 FisioWork - Todos os direitos reservados</a>
+  </div>
+   
+</footer>
+<!-- FINAL FOOTER -->
+
+<div class="botao-topo sticky-bottom">
+<a href="#">
+<img src="../img/topo.png" alt="">
+</a>
+</div>
 
 
-  </body>
-  <script src="../js/banner.js"></script>
+</body>
 </html>
+
+<script>
+const botaoTopo = document.querySelector(".botao-topo");
+
+window.addEventListener("scroll", function(event){
+if (window.scrollY >= 100) {
+botaoTopo.classList.add("botao-topo-mostrar");
+botaoTopo.classList.remove("botao-topo-esconder");
+} else {
+botaoTopo.classList.add("botao-topo-esconder");
+}
+});
+</script>
+
+  

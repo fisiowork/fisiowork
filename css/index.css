@@ -286,6 +286,24 @@ body{
     
 }
 
+footer {
+    text-align: center;
+    background-color: rgba(121, 204, 232, 0.85);
+    height: 80px;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: -50px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: black;
+}
+
 @media screen and ((min-width: 600px) and (max-width: 1899px))
 {
     
